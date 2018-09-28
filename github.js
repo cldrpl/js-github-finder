@@ -1,5 +1,7 @@
 class GitHub {
     constructor() {
+        // My local keys for this project, there is not a server or an easy way to encrypt the GitHub API Client ID & Client Secret for a training application
+        // You can easily generate your own GitHub API by getting started here, https://developer.github.com/program/
         this.client_id = 'e82781d37739dc5fffb6';
         this.client_secret = 'b6b92c06bd739a6ccdd755c302cceaf2edd677f6';
         // limiting the return of repos to 5 and showing the most recent in ascending order
